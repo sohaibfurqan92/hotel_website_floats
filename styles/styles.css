@@ -49,9 +49,36 @@ p{
   background: #333;
 }
 
+.btn-light{
+  background: #f4f4f4;
+  color: #000;
+}
+
 .text-primary{color:#f7c08a;}
 .lead{font-size: 20px;}
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
 
+.bg-light{
+  background: #f4f4f4;
+  color:#333; 
+}
+
+.bg-primary{
+  background: #f7c08a;
+}
+
+.box{
+  width: 33.3%;
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
+.py-1{padding:1rem 0;}
+.py-2{padding:2rem 0;}
+.py-3{padding:3rem 0;}
 
 /* Header */
 #header{
@@ -104,4 +131,37 @@ p{
 
 #showcase p{
 padding-bottom: 20px;
+}
+
+/* About */
+#about{height: 400px;}
+#about .about-left{
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+
+#about .about-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+#about .about-right p{
+  padding-bottom: 30px;
+}
+
+/* Footer */
+#footer{
+  background: #444;
+  color: #fff;
+  padding:20px;
+}
+
+#footer p{
+  text-align: center;
+  margin: 10px 0;
 }
