@@ -214,3 +214,38 @@ padding-bottom: 20px;
   float: left;
   margin-right: 20px;
 }
+
+/* Contact */
+#contact input,#contact textarea{
+  display: block;
+  width: 100%;
+  padding:8px;
+}
+
+#contact input:focus,
+#contact textarea:focus{
+  outline: 1px solid #f7c08a;
+  border:none;
+}
+
+#contact .input-field{
+  padding:10px 0;
+}
+
+#contact textarea{
+  height: 200px;
+}
+
+#contact input[type="submit"]{
+  width:20%;
+}
+
+#contact input[type="submit"]:hover{
+  background: #f7c08a;
+  color:#333;
+}
+
+#contact-details{
+  background:#333;
+  color:#fff;
+}
